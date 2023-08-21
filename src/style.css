@@ -1,0 +1,21 @@
+ #text-su-input {
+   .m-input {
+     height: 26px !important;
+     line-height: 26px !important;
+   }
+
+   .m-select {
+     width: 50px !important;
+
+
+     .m-option {
+       width: 30px !important;
+     }
+
+     .m-select-input,
+     .m-select-options {
+       text-align: center;
+       width: auto !important;
+     }
+   }
+ }
