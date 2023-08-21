@@ -9,8 +9,9 @@ import transformerAttributifyJsx from '@unocss/transformer-attributify-jsx'
 const getFluentMdl2 = () => {
   let iconsList: string[] = [];
   const iconifyMdl2 = import("@iconify-json/fluent-mdl2/icons.json")
+  console.log("iconifyMdl2", iconifyMdl2)
   Object.keys(iconifyMdl2).map((item) => iconsList.push(`i-fluent-mdl2:${item}`))
-  console.log(iconsList)
+  console.log("iconsList", iconsList)
   return ['text-1'];
 }
 
